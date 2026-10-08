@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="personal-information.js" defer></script>
+</head>
+<body class="personal-page">
+    <header class="site-header">
+        <a class="site-title" href="index.html">Portfolio</a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="personal-information.html">Personal Information</a></li>
+                <li><a href="hobby.html">Hobby</a></li>
+                <li><a href="my-skill.html">My skill</a></li>
+                <li><a href="learning-goals.html">Learning Goals</a></li>
+                <li><a href="my-assignments.html">My Assignments</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-title-banner" aria-labelledby="personal-heading">
+        <div class="page-title-banner-content">
+            <h1 id="personal-heading">Personal Information</h1>
+        </div>
+    </section>
+    <main>
+        <article class="personal-card">
+            <div class="personal-card-heading">
+                <h2>ข้อมูลส่วนตัว</h2>
+                <button class="card-toggle" id="personal-toggle" type="button" aria-expanded="false" aria-controls="personal-details" aria-label="แสดงรายละเอียด" title="แสดงรายละเอียด" hidden>+</button>
+            </div>
+            <div class="personal-card-details is-collapsed" id="personal-details">
+                <ul class="personal-data">
+                    <li><span class="data-label">Full name :</span> ภูริณัฐ จันทร์ด้วง</li>
+                    <li><span class="data-label">Nickname :</span> เก่ง</li>
+                    <li><span class="data-label">เพศ :</span> ชาย</li>
+                    <li><span class="data-label">Date of birth :</span> 6 มีนาคม 2548</li>
+                    <li><span class="data-label">Nationality :</span> ไทย</li>
+                    <li><span class="data-label">Religion :</span> พุทธ</li>
+                </ul>
+                <img class="personal-sticker" src="images/personal-sticker.png" alt="" width="284" height="320">
+            </div>
+        </article>
+        <article class="personal-card">
+            <div class="personal-card-heading">
+                <h2>ข้อมูลการศึกษา <span class="parenthetical-text">(ประถมศึกษา)</span></h2>
+                <button class="card-toggle" id="primary-toggle" type="button" aria-expanded="false" aria-controls="primary-details" aria-label="แสดงรายละเอียด" title="แสดงรายละเอียด" hidden>+</button>
+            </div>
+            <div class="personal-card-details is-collapsed" id="primary-details">
+                <ul class="personal-data">
+                    <li><span class="data-label">Name :</span> โรงเรียนเทศบาลวัดใหญ่</li>
+                    <li><span class="data-label">ช่วงปีที่เรียน :</span> ปี 2555 จนถึง ปี 2562</li>
+                    <li><span class="data-label">เกรดเฉลี่ยการศึกษา :</span> 3.80</li>
+                    <li><span class="data-label">เว็บไซต์โรงเรียน :</span> <a href="https://www.watyai.ac.th/">www.watyai.ac.th</a></li>
+                </ul>
+                <img class="personal-sticker" src="images/watyai-school.png" alt="ตราโรงเรียนเทศบาลวัดใหญ่" width="554" height="554">
+            </div>
+        </article>
+        <article class="personal-card">
+            <div class="personal-card-heading">
+                <h2>ข้อมูลการศึกษา <span class="parenthetical-text">(มัธยมศึกษาตอนต้น)</span></h2>
+                <button class="card-toggle" id="lower-secondary-toggle" type="button" aria-expanded="false" aria-controls="lower-secondary-details" aria-label="แสดงรายละเอียด" title="แสดงรายละเอียด" hidden>+</button>
+            </div>
+            <div class="personal-card-details is-collapsed" id="lower-secondary-details">
+                <ul class="personal-data">
+                    <li><span class="data-label">Name :</span> โรงเรียนเบญจมราชูทิศ</li>
+                    <li><span class="data-label">ช่วงปีที่เรียน :</span> ปี 2561 จนถึง ปี 2564</li>
+                    <li><span class="data-label">สายการเรียน :</span> เรียนห้องปกติ วิทยาศาสตร์และคณิตศาสตร์</li>
+                    <li><span class="data-label">วิชาที่ถนัด :</span> ประวัติศาสตร์</li>
+                    <li><span class="data-label">เกรดเฉลี่ยการศึกษา :</span> 3.65</li>
+                    <li><span class="data-label">เว็บไซต์โรงเรียน :</span> <a href="https://www.benjama.ac.th/">www.benjama.ac.th</a></li>
+                </ul>
+                <img class="personal-sticker" src="images/benjama-school.png" alt="ตราโรงเรียนเบญจมราชูทิศ" width="6755" height="9000">
+            </div>
+        </article>
+        <article class="personal-card">
+            <div class="personal-card-heading">
+                <h2>ข้อมูลการศึกษา <span class="parenthetical-text">(มัธยมศึกษาตอนปลาย)</span></h2>
+                <button class="card-toggle" id="upper-secondary-toggle" type="button" aria-expanded="false" aria-controls="upper-secondary-details" aria-label="แสดงรายละเอียด" title="แสดงรายละเอียด" hidden>+</button>
+            </div>
+            <div class="personal-card-details is-collapsed" id="upper-secondary-details">
+                <ul class="personal-data">
+                    <li><span class="data-label">Name :</span> โรงเรียนเบญจมราชูทิศ</li>
+                    <li><span class="data-label">ช่วงปีที่เรียน :</span> ปี 2564 จนถึง ปี 2567</li>
+                    <li><span class="data-label">สายการเรียน :</span> เรียนห้องปกติ วิทยาศาสตร์และคณิตศาสตร์</li>
+                    <li><span class="data-label">วิชาที่ถนัด :</span> ประวัติศาสตร์</li>
+                    <li><span class="data-label">เกรดเฉลี่ยการศึกษา :</span> 3.44</li>
+                    <li><span class="data-label">เว็บไซต์โรงเรียน :</span> <a href="https://www.benjama.ac.th/">www.benjama.ac.th</a></li>
+                </ul>
+                <img class="personal-sticker" src="images/benjama-school.png" alt="ตราโรงเรียนเบญจมราชูทิศ" width="6755" height="9000">
+            </div>
+        </article>
+        <article class="personal-card">
+            <div class="personal-card-heading">
+                <h2>ข้อมูลการศึกษา <span class="parenthetical-text">(มหาวิทยาลัย)</span></h2>
+                <button class="card-toggle" id="university-toggle" type="button" aria-expanded="false" aria-controls="university-details" aria-label="แสดงรายละเอียด" title="แสดงรายละเอียด" hidden>+</button>
+            </div>
+            <div class="personal-card-details is-collapsed" id="university-details">
+                <ul class="personal-data">
+                    <li><span class="data-label">ระดับการศึกษา :</span> ปริญญาตรี <span class="parenthetical-text">(กำลังศึกษา)</span></li>
+                    <li><span class="data-label">ช่วงปีที่เรียน :</span> ปี 2567 จนถึง ปี 2569 <span class="parenthetical-text">(ปัจจุบัน)</span></li>
+                    <li><span class="data-label">คณะ :</span> คณะสถาปัตยกรรมและการออกแบบ <span class="parenthetical-text">(Faculty of Architecture and Design)</span></li>
+                    <li><span class="data-label">สาขา :</span> เทคโนโลยีและการออกแบบ</li>
+                    <li><span class="data-label">เอก :</span> การพัฒนาและออกแบบเกม</li>
+                    <li><span class="data-label">เกรดเฉลี่ยการศึกษา :</span> 3.23</li>
+                    <li><span class="data-label">เว็บไซต์มหาวิทยาลัย :</span> <a href="https://www.kmutt.ac.th/">www.kmutt.ac.th</a></li>
+                </ul>
+                <img class="personal-sticker" src="images/kmutt-logo.png" alt="ตรามหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี" width="6616" height="6619">
+            </div>
+        </article>
+    </main>
+</body>
+</html>
